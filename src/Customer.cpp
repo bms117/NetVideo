@@ -41,7 +41,7 @@ std::string Customer::statement() const {
     double totalAmount = 0;
     int frequentRenterPoints = 0;
     for (std::vector<Rental>::const_iterator it = rentals.begin(); it != rentals.end(); ++it) {
-
+    int DailyCustomerCount = 0 //NEW VARIBALE ADDED
         // every rental is a rental point
         ++frequentRenterPoints;
 
