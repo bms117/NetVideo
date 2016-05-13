@@ -1,6 +1,6 @@
 /*
   Customer.cpp
-
+    Editor Names:Brian
   Definition file for Customer class
 */
 
